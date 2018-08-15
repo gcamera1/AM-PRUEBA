@@ -1,0 +1,5 @@
+.idea
+
+api/build
+api/node_modules
+api/.env
