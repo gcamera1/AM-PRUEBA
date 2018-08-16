@@ -8,9 +8,10 @@
     "clean": "rm -rf build && mkdir build",
     "build": "npm run clean && babel src -d build -s --source-maps --copy-files",
     "start": "export NODE_ENV=production && npm run build && npm install ./build/ --no-save && node -r dotenv/config ./build/index.js",
-    "lint": "./node_modules/.bin/eslint --fix --cache src/",
-    "start:dev": "export NODE_ENV=development && npm run lint && nodemon --exec 'node -r dotenv/config -r babel-core/register' ./src/index.js",
-    "sequelize": "node_modules/.bin/sequelize $*"
+    "slint": "./node_modules/.bin/eslint --fix --cache src/",
+    "start:dev": "export NODE_ENV=development && npm run slint && nodemon --exec 'node -r dotenv/config -r babel-core/register' ./src/index.js",
+    "sequelize": "node_modules/.bin/sequelize $*",
+    "db:seed:all": "npm run sequelize db:seed:undo:all && npm run sequelize db:seed:all"
   },
   "author": "Gonzalo Camera",
   "license": "ISC",

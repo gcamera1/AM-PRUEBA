@@ -1,0 +1,19 @@
+[
+  { "id": 1,"name": "bathrobes" },
+  { "id": 2,"name": "bathtub" },
+  { "id": 3,"name": "beach" },
+  { "id": 4,"name": "beach-pool-facilities" },
+  { "id": 5,"name": "business-center" },
+  { "id": 6,"name": "children-club" },
+  { "id": 7,"name": "coffe-maker" },
+  { "id": 8,"name": "deep-soaking-bathtub" },
+  { "id": 9,"name": "fitness-center" },
+  { "id": 10,"name": "garden" },
+  { "id": 11,"name": "kitchen-facilities" },
+  { "id": 12,"name": "newspaper" },
+  { "id": 13,"name": "nightclub" },
+  { "id": 14,"name": "restaurant" },
+  { "id": 15,"name": "safety-box" },
+  { "id": 16,"name": "separate-bredroom" },
+  { "id": 17,"name": "sheets" }
+]
