@@ -4,3 +4,10 @@ api/build
 api/node_modules
 api/.env
 api/.eslintcache
+
+client/.DS_Store
+client/node_modules
+client/npm-debug.log
+client/dist
+client/.idea/*
+client/jest_0/

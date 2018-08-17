@@ -1,5 +1,5 @@
 {
-  "name": "am-prueba",
+  "name": "am-api",
   "version": "0.1.0",
   "description": "api almundo",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "sequelize": "node_modules/.bin/sequelize $*",
     "db:seed:all": "npm run sequelize db:seed:undo:all && npm run sequelize db:seed:all"
   },
-  "author": "Gonzalo Camera",
+  "author": "Gonzalo Camera <gonzalocamera@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.3",
